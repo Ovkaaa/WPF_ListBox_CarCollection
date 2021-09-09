@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Data\**" />
+    <EmbeddedResource Remove="Data\**" />
+    <None Remove="Data\**" />
+    <Page Remove="Data\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Image\Controls\add.png" />
+    <None Remove="Image\Controls\delete.png" />
+    <None Remove="Image\Models\Cars\fiesta.jpg" />
+    <None Remove="Image\Models\Cars\m3.jpg" />
+    <None Remove="Image\Models\Cars\mercedes.jpg" />
+    <None Remove="Image\Models\Cars\nissan.jpg" />
+    <None Remove="Image\Models\Cars\tesla.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Image\Controls\add.png" />
+    <Resource Include="Image\Controls\delete.png" />
+    <Resource Include="Image\Models\Cars\fiesta.jpg" />
+    <Resource Include="Image\Models\Cars\m3.jpg" />
+    <Resource Include="Image\Models\Cars\mercedes.jpg" />
+    <Resource Include="Image\Models\Cars\nissan.jpg" />
+    <Resource Include="Image\Models\Cars\tesla.jpg" />
+  </ItemGroup>
+
+</Project>

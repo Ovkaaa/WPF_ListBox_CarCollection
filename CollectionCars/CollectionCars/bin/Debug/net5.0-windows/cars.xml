@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ArrayOfCar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Car>
+    <Name>Tesla Model S</Name>
+    <ShortDescription>Beautiful, fast and very quiet car by Tesla company</ShortDescription>
+    <Image>/../Image/Models/Cars/tesla.jpg</Image>
+    <Price>45000</Price>
+  </Car>
+  <Car>
+    <Name>Ford Fiesta</Name>
+    <ShortDescription>Comfortable car for city life</ShortDescription>
+    <Image>/../Image/Models/Cars/fiesta.jpg</Image>
+    <Price>11000</Price>
+  </Car>
+  <Car>
+    <Name>BMW M3</Name>
+    <ShortDescription>Comfortable car for city life</ShortDescription>
+    <Image>/../Image/Models/Cars/m3.jpg</Image>
+    <Price>65000</Price>
+  </Car>
+  <Car>
+    <Name>Mercedes C Class</Name>
+    <ShortDescription>Comfortable car for city life</ShortDescription>
+    <Image>/../Image/Models/Cars/mercedes.jpg</Image>
+    <Price>40000</Price>
+  </Car>
+  <Car>
+    <Name>Nissan Leaf</Name>
+    <ShortDescription>Comfortable car for city life</ShortDescription>
+    <Image>/../Image/Models/Cars/nissan.jpg</Image>
+    <Price>14000</Price>
+  </Car>
+</ArrayOfCar>
